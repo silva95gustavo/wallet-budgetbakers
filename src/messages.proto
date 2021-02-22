@@ -1,0 +1,15 @@
+syntax = "proto3";
+package wallet.budgetbakers;
+ 
+message Imports {
+    repeated File files = 4;
+
+    message File {
+        string id = 1;
+        string unknownUuid1 = 2;
+        string acountId = 3;
+        int64 timestamp = 4;
+        string unknownUuid2 = 5;
+        string fileName = 6;
+    }
+}
