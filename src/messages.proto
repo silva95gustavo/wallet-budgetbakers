@@ -7,7 +7,7 @@ message Imports {
     message File {
         string id = 1;
         string unknownUuid1 = 2;
-        string acountId = 3;
+        string accountId = 3;
         int64 timestamp = 4;
         string unknownUuid2 = 5;
         string fileName = 6;
