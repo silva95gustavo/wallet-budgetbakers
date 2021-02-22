@@ -2,7 +2,7 @@ const axios = require('axios');
 const protobuf = require("protobufjs");
 const qs = require('qs');
 
-const BASE_API_URL = 'https://api.budgetbakers.com/ribeez';
+const BASE_API_URL = 'https://api.budgetbakers.com';
 
 class Wallet {
     async login({
