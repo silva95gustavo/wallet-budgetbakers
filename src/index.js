@@ -6,8 +6,8 @@ const BASE_API_URL = 'https://api.budgetbakers.com';
 
 class Wallet {
     async login({
-        username = process.env.BUDGETBACKERS_WALLET_USERNAME,
-        password = process.env.BUDGETBACKERS_WALLET_PASSWORD,
+        username = process.env.BUDGETBAKERS_WALLET_USERNAME,
+        password = process.env.BUDGETBAKERS_WALLET_PASSWORD,
     } = {}) {
         const res = await axios.post(`${BASE_API_URL}/auth/authenticate/userpass`, qs.stringify({
             username: username,
