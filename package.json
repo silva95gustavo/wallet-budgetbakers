@@ -1,0 +1,28 @@
+{
+  "name": "wallet-budgetbakers",
+  "version": "0.1.0",
+  "description": "Unnoficial API for the Wallet by BudgetBakers app",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silva95gustavo/wallet-budgetbakers.git"
+  },
+  "author": {
+    "name": "Gustavo Silva",
+    "email": "silva95gustavo@gmail.com",
+    "url": "https://gustavosilva.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silva95gustavo/wallet-budgetbakers/issues"
+  },
+  "homepage": "https://github.com/silva95gustavo/wallet-budgetbakers#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "protobufjs": "^6.10.2",
+    "qs": "^6.9.6"
+  }
+}
