@@ -21,11 +21,9 @@ yarn add wallet-budgetbakers
 ## Usage 
 
 ```js
-import { Wallet } from 'wallet-budgetbakers';
+import { login } from 'wallet-budgetbakers';
 
-const wallet = new Wallet();
-
-await wallet.login({
+const wallet = await login({
   username: 'me@example.com',
   password: 'mypassword' 
 });
@@ -40,32 +38,34 @@ await wallet.uploadFile({
 await wallet.deleteImport(fileId);
 ```
 
-The Wallet client handles authentication and provides methods to interact with the BudgetBakers API. 
+The `login` function returns a `WalletSession` instance that handles authentication and provides methods to interact with the BudgetBakers API.
 
 ## API
 
 ### `login(options)`
 
-Authenticates with BudgetBakers API.  
+Logs in and returns a `WalletSession`.
 
 Options:
 
-- `username` - BudgetBakers username
+- `username` - BudgetBakers username  
 - `password` - BudgetBakers password
 
-### `listImports()` 
+### `WalletSession`
 
-Gets a list of import files. Returns an array of `File` objects.
+#### `listImports()`
 
-### `uploadFile(options)`
+Gets a list of import files. Returns an array of `File` objects. 
 
-Uploads a file to BudgetBakers.  
+#### `uploadFile(options)` 
+
+Uploads a file to BudgetBakers.
 
 Options:
 
 - `filePath` - Local file path to upload
-- `importEmail` - BudgetBakers account email  
+- `importEmail` - BudgetBakers account email
 
-### `deleteImport(fileId)`
+#### `deleteImport(fileId)`  
 
 Deletes an import file by ID.
