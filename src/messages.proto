@@ -1,6 +1,6 @@
 syntax = "proto3";
 package wallet.budgetbakers;
- 
+
 message Imports {
     repeated File files = 4;
 
@@ -12,4 +12,8 @@ message Imports {
         string unknownUuid2 = 5;
         string fileName = 6;
     }
+}
+
+message User {
+    string id = 1;
 }

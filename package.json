@@ -1,6 +1,6 @@
 {
   "name": "wallet-budgetbakers",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Unnoficial API for the Wallet by BudgetBakers app",
   "main": "dist/index.js",
   "scripts": {

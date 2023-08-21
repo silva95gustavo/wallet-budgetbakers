@@ -5,3 +5,7 @@ export type File = {
     unknownUuid2: string
     fileName: string;
 }
+
+export type User = {
+    id: string;
+}
