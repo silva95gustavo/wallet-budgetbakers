@@ -1,5 +1,5 @@
 # wallet-budgetbakers
-This is a Node.js client for the Wallet (by BudgetBakers) personal finance app unoficial API. It allows you to:
+This is a Node.js client for the Wallet (by BudgetBakers) personal finance app unofficial API. It allows you to:
 
 - Login
 - List import files  
