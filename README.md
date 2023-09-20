@@ -1,4 +1,7 @@
 # wallet-budgetbakers
+
+[![npm version](https://badge.fury.io/js/wallet-budgetbakers.svg)](https://badge.fury.io/js/wallet-budgetbakers)
+
 This is a Node.js client for the Wallet (by BudgetBakers) personal finance app unofficial API. It allows you to:
 
 - Login
